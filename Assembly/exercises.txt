@@ -1,0 +1,9 @@
+Programming Language 1 – Assembly
+
+Develop the following solutions using Assembly. 
+The input data will be simulated via variable initialization (compiled together). 
+All numerical operations will be performed on integers.
+
+1. Given an integer x, determine x!.
+2. Given a positive integer n, check if n is prime.
+3. Given a positive integer n, print the first n odd natural numbers.
