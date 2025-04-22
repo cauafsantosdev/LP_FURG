@@ -8,7 +8,7 @@ int main()
     int i = num - 1;
     int result = num;
 
-    for (i; i>=1; i--){
+    for (i; i>=1; i--) {
         result *= i;
     }
 

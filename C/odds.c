@@ -7,7 +7,7 @@ int main() {
     int i = 0;
     int acc = 1;
 
-    while (i < num){
+    while (i < num) {
         if (acc % 2 != 0) {
             printf("%d ", acc);
             acc++;
