@@ -10,6 +10,7 @@ CMAIN:
     MOV EAX, [number]     ; EAX = number
     CMP EAX, 2            ; if number < 2, it is not prime
     JL not_prime
+    JE end
 
     MOV ECX, 2            ; ECX = divisor starting at 2
 
