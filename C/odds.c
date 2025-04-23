@@ -2,7 +2,7 @@
 
 int main() {
     int num;
-    printf("How many odd numbers you wanna print? ");
+    printf("How many odd numbers do you wanna print? ");
     scanf("%d", &num);
     int i = 0;
     int acc = 1;
