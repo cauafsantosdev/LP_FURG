@@ -6,8 +6,11 @@ int main()
     printf ("Type a number to see if it's prime: ");
     scanf ("%d",&num);
 
-    if (num <= 2) {
+    if (num < 2) {
         printf("%d Isn't a prime number\n", num);
+    }
+    else if (num == 2) {
+        printf("%d is a prime number\n", num);
     }
     else {
         int i;
