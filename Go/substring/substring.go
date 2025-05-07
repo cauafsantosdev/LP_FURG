@@ -9,6 +9,7 @@ import (
 
 func main() {
 	reader := bufio.NewReader(os.Stdin)
+	
 	fmt.Print("Digite uma frase: ")
 	phrase, _ := reader.ReadString('\n')
 	phrase = strings.TrimSpace(phrase)
@@ -23,7 +24,7 @@ func main() {
 		count int
 	)
 
-	for i := 0; i <= len(phrase) - len(substring); i ++ {
+	for i := 0; i <= len(phrase) - len(substring); i++ {
 		if phrase[i:i+len(substring)] == lower_substring {
 			count++
 		}
